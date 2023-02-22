@@ -1,0 +1,130 @@
+.container-fluid{
+    background-color: gray;
+}
+.gain{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.a{
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.title::before{
+    content:'';
+    /* background: purple; */
+    background-image: linear-gradient(to right,#201a25,#737275);
+    width: 200px;
+    height: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(60px);
+}
+.title::after{
+    content:'';
+    background-image: linear-gradient(to right,#201a25,#737275);
+    width: 50px;
+    height: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    display: block;
+    transform: translateY(1px);
+}
+.nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to left,#201a25,#737275);
+    /* background:#fff ; */
+    padding: 0px !important;
+}
+.navbar-brand img{
+    height: 50px;
+    /*width: 200px;
+    padding: 20px;
+    padding: 20%;
+    border-radius: 50%; */
+    
+}
+
+.navbar-nav li{
+    padding: 0 20px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    /* ---------mobile................. */
+    /* float: left;
+    border: 2px solid gold;
+    text-align: center; */
+    float:right ;
+    
+}
+.fa-bars{
+    color: #fff;
+    font-size: 40px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+#footer{
+    background-image: linear-gradient(to right,#201a25,#737275);
+    color: #f1eff5;
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 200px;
+    margin-bottom: 50px;
+}
+.footer-box .fas{
+    margin-right: 8px;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border: 2px;
+    background-image: linear-gradient(to left,#201a25,#737275);
+}
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    /* background-image: linear-gradient(to left,#201a25,#737275); */
+    background-image: linear-gradient(to left,#9c0e0e,#3c3838);
+}
+
+hr{
+    background-color: #fff;
+}
+.copyright{
+    margin-bottom: 0;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to left,#9c0e0e,#3c3838);
+}
+.up
+{
+    width: 20px;
+    margin-left: 10px;
+}
+#resister{
+    background-image: linear-gradient(to right,#c7390e,#737275);
+    color: #000;
+    text-transform: capitalize;
+    font-size: 30px;
+
+}
